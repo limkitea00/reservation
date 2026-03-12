@@ -1,0 +1,43 @@
+@import url("main2.css");
+/* 예약하기 */
+#signup{
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+#signup fieldset{
+    padding: 20px;
+}
+#signup fieldset legend{
+    font-size: 12px;
+    padding: 0 10px;
+}
+.user li , .room li{
+    display: flex;
+    gap: 10px;
+    padding: 10px 0;
+}
+.user label{
+    width: 80px;
+}
+.btn-area{
+text-align: center;
+}
+.btn-area p{
+    color: #777;
+    padding-bottom: 20px;
+}
+.btn-area button{
+    width: 100%;
+    padding: 12px;
+    cursor: pointer;
+    color: #fff;
+    background-color: brown;
+}
+.btn-area button:hover{
+    background-color: rgb(124, 33, 33);
+}

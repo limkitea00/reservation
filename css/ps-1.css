@@ -1,0 +1,54 @@
+@import url("main2.css");
+/* 예약하기 */
+#signup{
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+#signup fieldset{
+    padding: 20px;
+}
+#signup fieldset legend{
+    font-size: 12px;
+    padding: 0 10px;
+}
+.user li , .room li{
+    display: flex;
+    gap: 10px;
+    padding: 10px 0;
+}
+.user label{
+    width: 60px;
+}
+.user input{
+    padding-left:8px; ;
+}
+.user input::placeholder{
+    color: #999;
+    font-size: 12px;
+}
+/* 예약 버튼 영역 */
+.btn-area{
+    text-align: center;
+}
+.notice{
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 10px;
+}
+/* 예약 버튼 */
+.btn-area button{
+    width: 100%;
+    padding: 12px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    background-color: red;
+}
+.btn-area button:hover{
+    background-color: #b10000;
+}
